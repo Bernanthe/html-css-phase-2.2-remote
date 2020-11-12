@@ -268,6 +268,7 @@
     font-size: 30px;
     line-height: 35px;
     text-align: center;
+    padding-bottom: 20px;
 }
 .realization p {
     font-family: Montserrat, sans-serif;
@@ -276,6 +277,15 @@
     line-height: 20px;
     text-align: center;
     padding-bottom: 42px;
+    width: 770px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.realization-wrp img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .purchase {
     background: linear-gradient(90deg, #211B19, #4E3326);
@@ -283,7 +293,7 @@
 .purchase-wrp {
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
+    width: 1232px;
     align-items: center;
 }
 .purchase h2 {
@@ -304,4 +314,83 @@
     text-align: center;
     padding-top: 6px;
     padding-bottom: 45px;
+}
+.purchase-button {
+    display: block;
+    background-color: #988574;
+    color: #ffffff;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 18px 32px 18px 32px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.purchase-button:hover {
+    background-color: #ffffff;
+    color: #615855;
+}
+.project-wrp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.project-wrp h2 {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 61px;
+    color: #555555;
+}
+.project-wrp p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 9px;
+    color: #8C8C8C;
+    width: 802px;
+    text-align: center;
+}
+.project-type-list {
+    padding-top: 27px;
+}
+.project-type-list li {
+    display: inline;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+.project-type-list li a {
+    color: #8C8C8C;
+    text-decoration: none;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.project-type-list li a:hover {
+    background-color: #998575;
+    color: #ffffff;
+}
+.projects-button {
+    display: block;
+    background-color: #988574;
+    color: #ffffff;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 18px 47px 18px 47px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 47px;
+    margin-bottom: 33px;
+}
+.projects-button:hover {
+    background-color: #ffffff;
+    color: #615855;
 }
