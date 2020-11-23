@@ -22,6 +22,10 @@
                     </svg>
                     <span class="logo-txt">Waxom</span>
                 </a>
+                <!-- <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn">
+                    <span class="nav-icon"></span>
+                </label> -->
                 <ul class="main-nav">
                     <li><a href="#"><span class="main-nav-txt">Home</span></a></li>
                     <li><a href="#"><span class="main-nav-txt">About us</span></a></li>
@@ -50,7 +54,7 @@
                 </ul>
             </nav>
             <section class="header-banner">
-                <svg class="slider-header" width="40" height="73" viewBox="0 0 40 73"
+                <svg class="slider-header-before" width="40" height="73" viewBox="0 0 40 73"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M38.03 72.98L0 36.5L38.03 0.0200195L40 2.02002L4.07 36.5L40 70.98L38.03 72.98Z" />
                 </svg>
@@ -61,18 +65,20 @@
                         placerat facer possim assum.</p>
                     <a href="#" class="header-button">Get started</a>
                 </div>
-                <svg class="slider-header" width="40" height="73" viewBox="0 0 40 73"
+                <svg class="slider-header-next" width="40" height="73" viewBox="0 0 40 73"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.97 72.96L40 36.48L1.97 0L0 2L35.93 36.48L0 70.96L1.97 72.96Z" />
                 </svg>
+                <div class="header-dots-div">
+                    <ul class="header-dots">
+                        <a href="#" class="header-dots-item"></a>
+                        <a href="#" class="header-dots-item"></a>
+                        <a href="#" class="header-dots-item"></a>
+                        <a href="#" class="header-dots-item"></a>
+                        <a href="#" class="header-dots-item"></a>
+                    </ul>
+                </div>
             </section>
-            <div class="header-dots">
-                <a href="#" class="header-dots-item"></a>
-                <a href="#" class="header-dots-item"></a>
-                <a href="#" class="header-dots-item"></a>
-                <a href="#" class="header-dots-item"></a>
-                <a href="#" class="header-dots-item"></a>
-            </div>
         </div>
     </header>
     <main>
@@ -189,12 +195,12 @@
                 <button class="projects-button">Load more</button>
             </div>
         </section>
-        <section class="container-hero video">
+        <section class="video">
             <div class="video-container">
-                <img src="images/bg-video-presentation.png" alt="bg-video">
-                <!-- <video width="1920" poster="" src="Video-1.mp4">видео не
+                <!-- <img src="images/bg-video-presentation.png" alt="bg-video"> -->
+                <video class="video-mp4" width="1920" poster="" src="Video-1.mp4">видео не
                     поддерживается
-                </video> -->
+                </video>
                 <div class="video-txt">
                     <button class="video-button">
                         <svg class="video-button-svg" width="70" height="70" xmlns="http://www.w3.org/2000/svg">
@@ -355,43 +361,85 @@
             </div>
         </section>
     </main>
-    <footer class="footer-background">
-        <div>
-            <div class="footer-about">
-                <a href="index.html" class="logo">
-                    <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        width="64" height="56">
-                        <path
-                            d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z" />
-                    </svg>
-                    <span class="logo-txt">Waxom</span>
-                </a>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                    euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                    suscipit lobortis claritatem.</p>
-                <a class="footer-about-link" href="#">Read more</a>
-            </div>
-            <div>
-                <h2>Recent Posts</h2>
-                <p class="footer-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-            </div>
-            <div>
-                <h2>Our Twitter</h2>
-            </div>
-            <div>
-                <h2>Dribbble Widget</h2>
+    <footer>
+        <div class="footer-up">
+            <div class="container-hero footer-up-wrp">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">
+                        <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="56">
+                            <path
+                                d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z" />
+                        </svg>
+                        <span class="logo-txt">Waxom</span>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                        euismod tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        suscipit lobortis claritatem.</p>
+                    <a class="footer-about-link" href="#">Read more</a>
+                </div>
+                <div class="footer-posts-block">
+                    <h2>Recent Posts</h2>
+                    <article class="footer-post">
+                        <h4>September 08, 2015</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </article>
+                    <hr>
+                    <article class="footer-post">
+                        <h4>September 08, 2015</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </article>
+                    <hr>
+                    <article class="footer-post">
+                        <h4>September 08, 2015</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </article>
+                </div>
+                <div class="our-twitter">
+                    <h2>Our Twitter</h2>
+                    <article class="twitter-post">
+                        <p><a class="twitter-link" href="#">@waxom</a> Cum soluta nobis eleifend option congue nihil
+                            imperdiet doming</p>
+                        <span>3 mins ago</span>
+                    </article>
+                    <hr>
+                    <article class="twitter-post">
+                        <p>Mirum est <a class="twitter-link" href="#">#envato</a> notare quam littera gothica, quam nunc
+                            putamus parum
+                            anteposuerit litterarum
+                        </p>
+                        <span>3 mins ago</span>
+                    </article>
+                    <hr>
+                    <article class="twitter-post">
+                        <p>Soluta nobis option bit.ly/1Hniso7</p>
+                        <span>3 mins ago</span>
+                    </article>
+                </div>
+                <div class="dribbble-widget">
+                    <h2>Dribbble Widget</h2>
+                    <div class="dribbble-widget-links">
+                        <a href="#"> <img src="images/footer-dribbble-img-1.png" alt="footer-dribbble-img-1"></a>
+                        <a href="#"> <img src="images/footer-dribbble-img-2.png" alt="footer-dribbble-img-2"></a>
+                        <a href="#"> <img src="images/footer-dribbble-img-3.png" alt="footer-dribbble-img-3"></a>
+                        <a href="#"> <img src="images/footer-dribbble-img-4.png" alt="footer-dribbble-img-4"></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <nav class="footer-nav">
-            <ul class="footer-nav-list">
-                <li>Copyright © 2015 Waxom</li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Support</a></li>
-            </ul>
-        </nav>
+        <div class="footer-bottom">
+            <nav class="container-hero footer-nav">
+                <ul class="footer-container footer-nav-list">
+                    <li>Copyright © 2015 Waxom</li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+
 </body>
 
 </html>
